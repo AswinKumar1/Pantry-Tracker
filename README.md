@@ -47,10 +47,5 @@ Set up environment variables:
 - Firebase: For backend data storage.
 - Material UI: For the frontend component library.
 
-**Project demo:**
-
-<p align="center">
-  <img src="public/My_pantry.gif" alt="Project Demo" width="600" />
-</p>
 
   
