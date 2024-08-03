@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pantry Tracker
 
-## Getting Started
+## Description
 
-First, run the development server:
+Pantry Tracker is a web application designed to help you manage your pantry items. It allows you to add, update, delete, and search for pantry items, as well as generate recipes based on the items you have using Openrouter AI. 
+
+It is created as part of the Headstarter SWE Fellowship for the tasks of Week #2, where we have to use React.js, Next.js, Firebase and deploy the web application using Vercel's CI/CD. Also, there were some bonus points for utilizing the camera feature where one can capture the image of the item that needs to be added in the tracker and also create a recipe based on the available items in the pantry using OpenAI/OpenrouterAI. 
+
+## Features
+
+- Add, update, and delete pantry items.
+- Search for specific items in your pantry.
+- Generate recipes based on pantry items.
+- Integrate camera functionality for item capture.
+
+## Technologies Used
+
+- **Frontend:** React.js, Next.js, Material UI, CSS
+- **Backend:** Firebase Firestore
+- **Deployment:** Vercel
+
+## Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/AswinKumar1/Pantry-Tracker.git
+   cd Pantry-Tracker
+   ```
+   
+2. **Install dependencies:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+Set up environment variables:
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Create a .env.local file in the root of your project directory and add your Openrouter API key:**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4. Visit (https://pantry-tracker-ir9037flt-aswin-kumars-projects-9880e7aa.vercel.app/) to view the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+5. **Deployed to Vercel:**
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. **Acknowledgements:**
+- Openrouter AI: For the API used in the recipe generator.
+- Vercel: For hosting the application.
+- Firebase: For backend data storage.
+- Material UI: For the frontend component library.
